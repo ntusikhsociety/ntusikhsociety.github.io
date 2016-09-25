@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    padding: 150px;
+    padding: 100px;
     background-color: black;
     font: 20px Helvetica, sans-serif;
     color: #fff;
@@ -15,10 +15,18 @@ article {
       margin: 0 auto;
 }
 @media screen and (max-width: 40.5em) {
+    body {
+        width: auto;
+        padding: 20px;
+        font: 15px Helvetica, sans-serif;
+    }
     article {
       display: block;
       text-align: left;
       width: auto;
       margin: 0 auto;
     }
+    h1 {
+      font-size: 20px;
+}
 }
