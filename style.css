@@ -15,7 +15,10 @@ article {
       margin: 0 auto;
 }
 @media screen and (max-width: 40.5em) {
-    body {
-        width: auto;
+    article {
+      display: block;
+      text-align: left;
+      width: auto;
+      margin: 0 auto;
     }
 }
