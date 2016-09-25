@@ -14,3 +14,8 @@ article {
       width: 650px;
       margin: 0 auto;
 }
+@media screen and (max-width: 40.5em) {
+    body {
+        width: auto;
+    }
+}
